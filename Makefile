@@ -6,12 +6,15 @@
 #    By: ykaplien <ykaplien@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/19 14:06:53 by ykaplien          #+#    #+#              #
-#    Updated: 2018/09/19 14:07:17 by ykaplien         ###   ########.fr        #
+#    Updated: 2018/09/25 12:21:53 by ykaplien         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fractol
 SRCS = main.c\
+		julia.c\
+		mandelbrot.c\
+		tricorn.c
 
 FLAGS = -Wall -Werror -Wextra
 HEADER = fdf.h
